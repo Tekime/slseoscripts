@@ -1,0 +1,112 @@
+.tool-results {
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #fafafa;
+    border: solid 1px #f3f3f3;
+}
+
+
+/* SEO Tool Form Styles */
+.sl-tool {
+    padding: 10px 0px;
+    margin: 0px;
+}
+.sl-tool h1 {
+    margin: 5px 0px;
+    padding: 5px;
+    border-bottom: solid 1px #eee;
+}
+a.sl-tool-help-msg, a.sl-tool-help-msg:active, a.sl-tool-help-msg:visited {
+    font-size: 11px;
+    padding: 2px;
+    margin: 2px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+a.sl-tool-help-msg:hover {
+    text-decoration: underline;
+}
+.sl-tool-help {
+    font-size: 11px;
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px #eee;
+    visibility: hidden;
+    display: none;
+}
+.sl-tool-description {
+    padding: 15px 5px 25px 5px;
+    color: #000;
+}
+
+.sl-tool-form {
+    padding: 10px 10px;
+    margin: 10px 0px;
+    border: solid 1px #eee;
+    background-color: #fafafa;
+}
+.sl-tool-code, .sl-tool-codesm {
+    font-family: courier new, courier, sans-serif;
+    font-size: 11px;
+    color: #444;
+    padding: 4px;
+}
+.sl-tool-code {
+    width: 600px;
+    height: 250px;
+}
+.sl-tool-codesm {
+    width: 600px;
+    height: 125px;
+}
+.sl-tool-codesmm {
+    width: 400px;
+    height: 75px;
+}
+div.noflow90 {
+    width: 90px;
+    overflow: hidden;
+}
+
+.sl-shorturl {
+    font-family:bitstream vera sans, courier new, courier, sans-serif;
+    font-weight:normal;
+    font-size:14px;
+    color:#000;
+    background-color:#fffde6;
+    border:solid 2px #fff9ae;
+    padding:8px 15px;
+}
+.sl-shorturl a, .sl-shorturl a:active, .sl-shorturl a:visited {
+    text-decoration: underline;
+}
+
+.sl-tool-col {
+    width: 300px;
+    float: left;
+    padding: 5px;
+}
+.sl-tool-col2 {
+    padding: 5px;
+}
+.sl-tool-col h3, .sl-tool-col2 h3 {
+    display: block;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    background-color: #fafafa;
+}
+
+.sl-tool-item, .sl-tool-item2 {
+    padding: 0px 3px 8px 0px;
+    border-bottom: solid 1px #fafafa;
+}
+.sl-tool-thumb {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 0px 5px 5px 0px;
+    padding: 0px;
+}

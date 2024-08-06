@@ -1,0 +1,61 @@
+
+SEO Scripts
+© 2012 Scriptalicious, All Rights Reserved
+http://www.scriptalicious.com/
+
+This is a quick install guide for SEO Scripts.
+
+Read the full User Manual online for complete instructions on using the
+software:
+
+http://www.scriptalicious.com/docs/SEOScriptsUserManual.pdf
+
+
+REQUIREMENTS
+
+SEO Scripts has the following server requirements. These are all fairly standard on a modern webserver.
+
+    * PHP 4/5
+    * MySQL
+    * Apache w/ mod_rewrite, CURL, and GD support
+
+Basic knowledge of FTP and an FTP client will be needed to upload the software to your server.
+
+Note: There is no upgrade option for SEO Scripts 2.0 from 1.x sites. It is a full rewrite.
+
+
+INSTALLATION
+
+See the latest instructions online:
+
+http://www.scriptalicious.com/en/docs/seo-scripts/install
+
+Once you have successfully purchased SEO Scripts, you will receive an email containing download 
+instructions. Follow those instructions to download the latest version of SEO Scripts to your
+computer in .ZIP format. Unzip the file on your desktop or somewhere easy to remember. You should 
+now have a folder named slseopro-2.0, containing another folder called "upload".
+
+Using your favorite FTP client, upload the contents of the "upload" folder to your Web server. Make sure 
+you upload all files to the folder you want the site to run on. Usually this will be `public_html` 
+or `htdocs`, but you can also upload the files to a subfolder or subdomain on your site.
+
+Once all of your files have been uploaded, you must run the install script to complete installation. 
+Load up your favorite browser and head to:
+
+http://www.yourdomain.com/install/
+
+Make sure you replace `www.yourdomain.com` with the URL where you have uploaded SEO Scripts.
+
+The installer will guide you through the rest of the process. Make sure you delete the 
+`install` folder when complete.
+
+
+TROUBLESHOOTING
+
+For technical problems, bug reports and additional support please visit the Support Center. 
+
+http://support.scriptalicious.com/
+
+
+
+ 

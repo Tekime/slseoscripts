@@ -1,0 +1,40 @@
+.CodeMirrorFrame {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-size: 11px;
+    line-height: 13px;
+}
+.CodeMirror-line-numbers1,
+.CodeMirror-line-numbers2,
+.CodeMirror-line-numbers3,
+.CodeMirror-line-numbers4,
+.CodeMirror-line-numbers5,
+.CodeMirror-line-numbers {
+  margin: .4em;
+  padding: 0;
+  font-family: monospace;
+  color: #768098;
+}
+.CodeMirror-line-numbers {
+}
+.CodeMirror-line-numbers1 {
+  font-size: 9px;
+  line-height: 11px;
+}
+.CodeMirror-line-numbers2 {
+  font-size: 10px;
+  line-height: 12px;
+}
+.CodeMirror-line-numbers3 {
+  font-size: 11px;
+  line-height: 13px;
+}
+.CodeMirror-line-numbers4 {
+  font-size: 12px;
+  line-height: 14px;
+}
+.CodeMirror-line-numbers5 {
+  font-size: 13px;
+  line-height: 15px;
+}

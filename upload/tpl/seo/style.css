@@ -1,0 +1,58 @@
+/*
+ * "SEO Theme" Ice Blue Style for Scriptalicious SEO Scripts
+ * (c) 2009 Scriptalicious, http://www.scriptalicious.com/
+*/
+
+/* Body background and font styles */
+html,body { background: #0f3471; }
+body { background-image: url(images/kbody-bg.gif); background-repeat: repeat-x; }
+
+/* Standard background */
+#kheader, #kfooter, .tblrow { background-color: #fff; }
+
+/* Text colors */
+html, body, table, tr, th, td, thead, .ktmenu li a, .ktmenu li a:active, .ktmenu li a:visited, .ktmenu a, .ktmenu a:active, .ktmenu a:visited, .ksmenu li a, .ksmenu li a:active, .ksmenu li a:visited, .kGridForm, .kGridForm select, .kGridForm option, .kGridForm input, .msg1, table.pager-table td a, table.pager-table td a:active, table.pager-table td a:visited, table.pager-table td.pager-current, table.pager-table td.pager-link {
+    color: #000;
+}
+.kForm input, .kForm textarea, .ktmenu li a:hover, .kGridMsg, table.grid th.th2, .body-nav, .kForm h2 {
+    color: #555; 
+}
+table.grid th, table.grid th a, .grid th a:active, .grid th a:visited, table.grid th a.tbl-sort, table.grid, th a.tbl-sort:active, table.grid th a.tbl-sort:visited,.ksmenu h2, #kfooter a:hover, table.pager-table td.pager-page {
+    color: #fff;
+}
+#kfooter, table.grid th a:hover, table.grid th a.tbl-sort:hover {
+    color: #f3f3f3;
+}    
+#kfooter a, #kfooter a:active, #kfooter a:visited {
+    color: #ddd;
+}
+
+/* Link colors */
+a, a:active, a:visited { color: #005b9a; }
+a:hover { color: #2fa9ff; }
+
+/* Background images */ 
+#kheader { background-image: url('images/kheader-bg.gif'); }
+#kfooter { background-image: url('images/kfooter-bg.gif'); }
+.ktmsg { background-image: url('images/ktbar-bg.gif'); }
+.ktmenu { background-image: url('images/ktbar-bg.gif'); }
+.ksmenu h2 { background-image: url('images/ksmenu-heading-bg.gif'); }
+
+/* Other special items */ 
+.body-nav { border-top: solid 1px #e5e5e5; }
+.ksmenu li { border-right: solid 1px #eee; border-bottom: solid 1px #eee; border-left: solid 1px #eee; }
+.msg1 { background-color: #e1f1ff; border: solid 1px #37a0ff; }
+.kFormError { color: #cc0000; }
+.kForm input.error, .kForm textarea.error { color: #595300; background-color: #fffef2; }
+table.grid { border: solid 1px #eee; }
+table.grid th.th2 { background-color: #eee; border-bottom: solid 1px #aaa; }
+table.grid td { border-right: solid 1px #f3f3f3; border-bottom: solid 1px #f3f3f3; }
+.tblrow2 { background-color: #fafafa; }
+.tblrowh, .tblrowh2 { background-color: #f2f8ff; }
+.tblcell { border-bottom:solid 1px #f3f3f3; }
+table.pager-table { background-color: #aec7e3; }
+table.pager-table td a, table.pager-table td a:active, table.pager-table td a:visited { background-color: #f5fafe; }
+table.pager-table td a:hover { background-color: #e0effc; }
+table.pager-table td.pager-page { background-color: #3e4968; }
+table.pager-table td.pager-current { background-color: #e4f1fc; }
+table.pager-table td.pager-link { background-color: #f5fafe; }

@@ -1,0 +1,23 @@
+# ---------------------------------------------------------------------------- #
+# Kytoo CMS .htaccess file
+# 
+# This file is required by Kytoo CMS to translate SEO URL's.
+# mod_rewrite must be available on the server. Add any additional rules
+# after the rules defined by Kytoo CMS. 
+#
+# @author      Gabriel Harper <gharper@intavant.com>
+# @copyright   2006 Kytoo
+# @version     1.0.0
+# @access      private
+# ---------------------------------------------------------------------------- #
+
+# Enable mod_rewrite engine
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php
+</IfModule>
+

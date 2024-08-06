@@ -1,0 +1,38 @@
+span.checkbox {
+   width: 16px;
+   height: 15px;
+   padding: 0px;
+   background: url(images/ico_checks1.gif) no-repeat;
+   display: block;
+   clear: left;
+   float: left;
+}
+span.radio {
+    width: 19px;
+    height: 25px;
+    padding: 0 5px 0 0;
+    background: url(radio.gif) no-repeat;
+    display: block;
+    clear: left;
+    float: left;
+}
+span.select {
+    position: absolute;
+    width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+    height: 21px;
+    padding: 0 24px 0 8px;
+    color: #fff;
+    font: 12px/21px arial,sans-serif;
+    background: url(select.gif) no-repeat;
+    overflow: hidden;
+}
+
+
+.k_ui-dialog {
+    width: 240px;
+    height: 150px;
+    background-color: #f3f3f3;
+    border: solid 2px #aaa;
+    padding: 10px;
+    position: absolute;
+}

@@ -1,0 +1,8 @@
+.mceButton .mceButtonEnabled
+{
+    border: solid 5px red;
+    
+}
+#pg_contents_morebutton .mceIcon {
+    border: solid 5px red;
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /content/
+Disallow: /klib/
+Disallow: /modules/
+Disallow: /tpl/
+Disallow: captcha.php
+Disallow: config.php

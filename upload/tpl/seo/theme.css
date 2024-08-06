@@ -1,0 +1,439 @@
+/**
+ * Kytoo Theme CSS
+*/
+
+/* BASE STYLES */
+html, body { background:#ddd; }
+html,body,table,tr,th,td,thead { color: #000; }
+body { 
+    text-align:center; 
+    font:13px/1.231 arial,helvetica,sans-serif;
+    background-image: url(images/kbody-bg.gif);
+    background-repeat: repeat-x;
+    margin:0;padding:0;
+}
+fieldset,img { border:0; }
+input,textarea,select { font-family:inherit;font-size:inherit;font-weight:inherit; }
+pre,code,kbd,samp,tt { font-family:monospace;line-height:100%; }
+table { border-collapse:collapse;border-spacing:0; font-size:inherit;font:100%; }
+abbr,acronym { border-bottom:1px dotted #000; cursor:help; }
+blockquote,ul,ol,dl { margin:1em; }
+h1 {
+    font-size: 28px;
+    letter-spacing: -1px;
+    margin: 0px 0px 6px 0px;
+    padding: 0px 0px 4px 0px;
+}
+h2 {
+    font-size: 26px; 
+}
+h3 {
+    font-size: 18px;  
+}
+
+/* BASE FONTS & LINK STYLES */
+
+
+/* LAYOUT */ 
+#kheader { 
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    background-color: #fff;
+    background-image: url(images/kheader-bg.gif);
+    background-repeat:no-repeat;
+    height: 130px;
+}
+#klheader { float: left; padding: 5px; width:440px; }
+#krheader { float: right; padding: 42px 5px 0px 5px; width: 490px; }
+#kdoc { margin:auto;text-align:left;width:950px;min-width:950px; padding-top: 15px; }
+.kinner{position:relative;}
+.kinner{_position:static;}
+#kmain .kinner{position:static;}
+#kmain{width:100%;}
+.kdoc1 #kmain { float:right;margin-left:-380px; }
+.kdoc1 .kinner { float:left;width:180px;padding:0px 0px 0px 20px; }
+.kdoc1 #kmain .kinner { margin-left:220px; }
+#kmain .kinner { float:none;width:auto; padding:0px 20px 0px 0px; }
+#kbody:after { content:".";display:block;height:0;clear:both;visibility:hidden; }
+#kbody { padding: 0px 0px 0px 0px; background-color: #fff; }
+
+#kheader h1 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin: 0px;
+    padding: 40px 15px 0px 30px;
+}
+#kheader h1 a, #kheader h1 a:active, #kheader h1 a:visited {
+    color: #666;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+#kheader h1 a:hover {
+    color: #666;
+    text-decoration: none;
+}
+.khsub { color: #666; padding: 0px 0px 15px 32px; }
+#kfooter {
+    font-size: 11px;
+    color: #eee;
+    text-align: left;
+    background-color: #000;
+    clear:both;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 30px 0px 30px;
+    background-color: #fff;
+    background-image: url(images/kfooter-bg.gif);
+    background-repeat:no-repeat;
+    height: 60px;
+}
+#kfooter a, #kfooter a:active, #kfooter a:visited {
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ccc;
+}
+#kfooter a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.footercol {
+    width: 440px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    text-align: center;
+}
+.ktmsg {
+    padding: 8px 25px 12px 25px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px 0px 25px 0px;
+    height: 18px;
+    background-image: url(images/tmenu_bg2.gif);
+}
+
+
+/* Main Menu */
+
+/* Navigation */
+.body-nav {
+    font-size: 11px;
+    background-color: #f3f3f3;
+    padding: 6px 10px 6px 10px;
+    margin: 0px;
+    color: #999999;
+    border-top: solid 1px #e5e5e5;
+}
+.body-nav a, .body-nav a:active, .body-nav a:visited
+{
+    text-decoration: none;
+}
+.body-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar */
+
+
+/* MENUS */
+
+/* Top Menu styles */
+.ktmenu {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0px;
+    height: 18px;
+    background-image: url(images/tmenu_bg2.gif);
+}
+.ktmenu ul, .ktmenu ol {
+    white-space:nowrap;padding:0px;margin:0px;
+}
+.ktmenu li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px;
+    margin: 0px 10px;
+    background-image: none;
+}
+.ktmenu li a, .ktmenu li a:active, .ktmenu li a:visited {
+    margin:0px;
+    color: #000;
+    border: 0px;
+    text-decoration: none;
+}
+.ktmenu li a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+.ktmenu a, .ktmenu a:active, .ktmenu a:visited {
+    color: #000;
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.ktmenu a:hover {
+    text-decoration: underline;
+}
+.ktmenu a.end {
+    border-right: 0px;
+}
+
+.ksmenu {
+    padding: 0px; margin: 0px 0px 10px 0px;
+}
+.ksmenu ul, .ksmenu ol, .ksmenu li { padding:0px;margin:0px; }
+.ksmenu h2 {
+    font-size: 13px;
+    font-weight: bold;
+    background-image: url(images/ksmenu-heading-bg.gif);
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 8px 8px 7px 10px;
+    margin: 0px;
+}
+.ksmenu li {
+    list-style-type: none;
+    display: block;
+    background-image: none;
+    border-top: 0px;
+    border-right: solid 1px #eee;
+    border-bottom: solid 1px #eee;
+    border-left: solid 1px #eee;
+}
+.ksmenu li a, .ksmenu li a:active, .ksmenu li a:visited {
+    display: block;
+    color: #000;
+    margin: 0px;
+    padding: 6px 8px;
+    text-decoration: none;
+    background-image: url(images/ksmenu-bg.gif);
+}
+.ksmenu li a:hover {
+    color: #555;
+    text-decoration: none;
+    background-image: url(images/ksmenu-bg-fadein.gif);
+}
+
+/* INTERFACE - Messages, alerts, dialogs, etc. */
+
+.msg1 {
+    clear:both;
+    padding: 5px;
+    text-align: center;
+    background-color: #e1f1ff;
+    border: solid 1px #37a0ff;
+}
+
+/* FORMS */
+
+
+.kForm {
+    padding: 0px;
+}
+.kForm input, .kForm textarea {
+    font-family: tahoma, arial;
+    padding: 3px;
+    margin: 5px 2px 2px 5px;
+    color: #555555;
+}
+.kForm h2 {
+    font-size: 12px;
+    color: #3e4968;
+    font-family: tahoma, verdana;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 3px 3px 3px 5px;
+    margin: 16px 0px 5px 0px;
+    border-bottom: solid 1px #add3f5;
+}
+.kForm select {
+    font-family: arial;
+    margin: 5px 5px 5px 5px;
+}
+.kForm option {
+    font-family: arial;
+}
+.kForm input.submit {
+    font-weight: bold;
+    margin: 10px 5px 2px 0px;
+}
+.kForm label {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+.kFormError {
+    font-size: 10px;
+    font-weight: normal;
+    color: #cc0000;
+    display: block;
+    margin: 0px 0px 2px 5px;
+    padding: 0px;
+}
+.kForm input.error, .kForm textarea.error {
+    font-family: tahoma, arial;
+    color: #595300;
+    background-color: #fffef2;
+    display: block;
+}
+.kForm h2 {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+.frmLabelContainer {
+    font-size: 11px;
+}
+.frmLabelContainer em {
+    color: #33aa33;
+    font-style: normal;
+}
+.frmInputContainer {
+}
+.frmRowSep {
+    display: block;
+    clear: both;
+    background-color: transparent;
+}
+
+
+/* GRIDS */
+
+
+/* --- DataGrid Styles --- */
+.kGridForm, .kGridForm select, .kGridForm option, .kGridForm input {
+    color: #000;
+}
+.kGridForm input {
+    padding: 0px 3px;
+    margin: 0px;
+}
+.kGridMsg {
+    color: #555;
+    font-size: 10px;
+    padding: 3px;
+}
+div.kGridForm {
+    padding: 0px 5px 0px 0px;
+}
+table.grid, table.grid tr, table.grid td, table.grid th {
+    font-size: 11px;
+}
+table.grid {
+    border: solid 1px #eee;
+}
+div.grid form {
+    margin: 0px;
+    padding: 0px;
+}
+div.grid .kGridMsg {
+    padding: 0px 4px 3px 0px;
+    margin: 0px;
+    font-size: 11px;
+}
+table.grid th {
+    background-color: #314972;
+    color: #fff;
+    background-image:url('images/thdb-bg.gif');
+    background-repeat:repeat-x;
+    padding: 8px;
+    border-bottom: solid 5px #f3f3f3;
+}
+table.grid th.th2 {
+    background-image: none;
+    background-color: #eee;
+    color: #666;
+    padding: 3px 5px;
+    font-size: 11px;
+    font-weight: normal;
+    border-bottom: solid 1px #aaa;
+}
+table.grid th a, .grid th a:active, .grid th a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+table.grid th a:hover {
+    color: #f2f8ff;
+}
+table.grid th a.tbl-sort, table.grid th a.tbl-sort:active, table.grid th a.tbl-sort:visited {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 8px 0px 8px;
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+}
+table.grid th a.tbl-sort:hover {
+    color: #f2f8ff;
+    background-image: url(images/thdb-bg2.gif);
+    background-repeat: repeat-x;
+}
+table.grid td {
+    padding: 5px 8px;
+    border-right: solid 1px #f3f3f3;
+    border-bottom: solid 1px #f3f3f3;
+}
+.tblrow {
+    background-color: #fff;
+}
+.tblrow2 {
+    background-color: #fafafa;
+}
+.tblrowh, .tblrowh2 {
+    background-color: #f2f8ff;
+}
+.tblcell {
+    border-bottom:solid 1px #f3f3f3;
+}
+checkbox.kFormRichElement {
+    margin-left: 5px;
+}
+/* --- End Kytoo DataGrid Styles --- */
+
+/* --- Pager Styles --- */
+table.pager-table {
+    background-color: #aec7e3;
+    border: 0px;
+    font-size: 10px;
+    margin: 6px 0px;
+}
+table.pager-table td {
+    padding: 0px;
+}
+table.pager-table td.pager-page, 
+table.pager-table td.pager-current, 
+table.pager-table td.pager-link {
+    border: 0px;
+}
+
+table.pager-table td a, table.pager-table td a:active, table.pager-table td a:visited {
+    margin: 0px;
+    padding: 3px 5px;
+    background-color: #f5fafe;
+    color: #000000;
+    display:block;
+    text-decoration: none;
+}
+table.pager-table td a:hover {
+    background-color: #e0effc;
+    text-decoration: none;
+}
+table.pager-table td.pager-page {
+    padding: 3px 5px;
+    background-color: #3e4968;
+    color: #ffffff;
+}
+table.pager-table td.pager-current {
+    padding: 3px 5px;
+    background-color: #e4f1fc;
+    color: #000000;
+}
+table.pager-table td.pager-link {
+    background-color: #f5fafe;
+    color: #000000;
+}
+/* ---End Pager Styles --- */
+
